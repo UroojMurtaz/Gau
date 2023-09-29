@@ -1,0 +1,34 @@
+* {
+    font-family: Poppins, sans-serif !important;
+    box-sizing: border-box;
+  }
+  .wrapperClassName {
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  .editorClassName{
+    height: 200px;
+  }
+  .fio-modal-content{
+    left: 60% !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgb(190, 190, 190);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(190, 190, 190,0.5);
+    cursor: pointer;
+  }
+  .mantine-1682jzp{
+    padding: 0;
+  }
