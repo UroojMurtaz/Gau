@@ -48,6 +48,7 @@ const index = () => {
       branches: "15",
     },
   ];
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     window.scrollTo({
       top: 0,

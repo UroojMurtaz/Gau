@@ -1,5 +1,5 @@
 import { Carousel } from "@mantine/carousel";
-import { Container, Image, Indicator, Paper, Stack, Text } from "@mantine/core";
+import { Image, Paper, Stack, Text } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 // import Autoplay from "embla-carousel-autoplay";
 import Slider1 from "../../assets/icons/Component1.svg";
@@ -9,8 +9,6 @@ import { UserContext } from "../../contexts/UserContext";
 const SearchBackground = ({ carouselImages }) => {
   const matches600 = useMediaQuery("(min-width: 600px)");
   const {translate}=useContext(UserContext)
-
-  // const autoplay = useRef(Autoplay({ delay: 10000 }));
 
   const searchBackgroundCarousel = (
     <Carousel
