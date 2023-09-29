@@ -1,11 +1,10 @@
 import {
-  Card,
-  Container,
-  Flex,
+   Container,
+ 
   Grid,
-  Group,
+ 
   Image,
-  SimpleGrid,
+
   Stack,
   Text,
   Title,
@@ -14,7 +13,7 @@ import { useMediaQuery } from "@mantine/hooks";
 import contactUs from "../../assets/icons/contactusHeader.png";
 import map from "../../assets/icons/map.png";
 
-import Aboutus1 from "../../assets/icons/au1.png";
+
 import { useForm } from "@mantine/form";
 import { useContext } from "react";
 import { UserContext } from "../../contexts/UserContext";
